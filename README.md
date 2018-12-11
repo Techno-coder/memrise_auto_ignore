@@ -9,3 +9,6 @@ User script to identify already learned words and ignore them
 
 # Usage
 On course pages such as [this one](https://www.memrise.com/course/535555/genki-i-genki-1-vocabulary-kanji/) there will be two extra options under the `Options` drop down. `Collect` will search the current course for any words that you have **fully** planted and learned and will add them to the database. `Auto Ignore` will ignore any words that are in the database. `Auto Ignore` will **only** ignore words that have **not** been planted or learned at all.
+
+# Caveats
+This script only matches on the foreign term and **not the definition**. If there are multiple definitions for the same word then they will all be ignored.
