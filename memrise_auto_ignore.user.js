@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Memrise Auto-Ignore
+// @name         Memrise Auto Ignore
 // @namespace    https://techno-coder.github.io
 // @version      0.1
 // @description  Identifies already learned words and ignores them
@@ -145,7 +145,7 @@ function not_learned(item_status) {
 function ignore_notification(ignore_count) {
 	let notification = {
 		text: `Ignored ${ignore_count} already learned words`,
-		title: "Memrise Auto-Ignore",
+		title: "Memrise Auto Ignore",
 		timeout: "3000",
 	};
 	GM.notification(notification);
@@ -154,7 +154,7 @@ function ignore_notification(ignore_count) {
 function collect_notification(collect_count) {
 	let notification = {
 		text: `Added ${collect_count} newly learned words`,
-		title: "Memrise Auto-Ignore",
+		title: "Memrise Auto Ignore",
 		timeout: "3000",
 	};
 	GM.notification(notification);
